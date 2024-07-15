@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <style>
+        body{
+            margin: 0px ;
+            padding: 0px;
+            background-color: black;
+        }
+        .header{ /*background-color: rgb(17, 182, 39);*/
+            height: 88px;
+            margin: 10px;
+             position: relative;
+            
+        }
+        
+        nav ul li{
+            list-style-type: none;
+            display : inline-block ;
+            padding: 10px;
+        }
+        ul li a{
+            color: rgb(232, 241, 234);
+            letter-spacing:  0.1rem;
+        }
+        ul li a:hover{
+            color: rgb(3, 136, 14);
+            text-decoration: underline;
+
+        }
+        .menu li{
+            float: left;
+            padding: 35xp;
+        }
+        .menu li a{
+            text-decoration: none;
+            cursor: pointer;
+          
+        }
+        form{
+            padding: 35px ;
+            text-align: right;
+        }
+       
+         .video{
+            
+            position: absolute;
+           background-size: 88px 10px;
+            z-index:  -1;
+            
+         }
+          /* hadi bach yji kml al video fl'ecran */
+         /*@media (min-aspect-ratio : 16/9) {
+            .video{
+                width: auto;
+                height: 100%;
+            }
+            
+         }*/
+         @media screen {
+            
+         }
+        .p{
+            color: #f1e8e8;
+        }
+       
+    </style>
+</head>
+<body>
+   
+    
+    <div class=" header" >
+        <video autoplay loop muted plays-inline class="video">
+            <source src="img/ba9c069a828727c26bc0cd3442ae412c (1).mp4" type="video/mp4">
+        </video>
+       <nav>
+        <ul class="menu">
+            <li><a href="http://localhost/daw/index.php">Accueil</a></li>
+            <li><a href="http://localhost/daw/ajout.php">Inscription</a></li>
+            <li><a href="http://localhost/daw/recherche.php">Recherche</a></li>
+        </ul>
+        
+       </nav>
+    </div>
+   
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p class="p">&copy; 2024 Mon Site Web</p>
+    </footer>
+</body>
+</html>
